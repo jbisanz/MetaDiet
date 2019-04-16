@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>HFD Meta-analysis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<div class="inner">
+					<span class="icon major fa-cloud"></span>
+					<h1>Diet induces reproducible alterations in the mouse and human gut microbiome</h1>
+					<p>Jordan Bisanz, Vaibhav Upadhyay, Jessie Turnbaugh, Kimberly Ly, and Peter Turnbaugh.</p>
+					<h2> v0.2 </h2>
+					<ul class="actions special">
+						<li><a href="#one" class="button scrolly">See analysis and data.</a></li>
+					</ul>
+				</div>
+			</section>
+
+		<!-- Abstract -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+							<header class="major">
+								<h2>Background</h2>
+							</header>
+							<p>The degree to which diet reproducibly alters the human and mouse gut microbiota remains unclear. Through a unbiased subject-level meta-analysis framework, we re-analyzed 27 studies including 1101 samples from rodents and humans.  We demonstrate reproducible changes in gut microbial community  structure;  however,  reduction  in  alpha  diversity  is  not  a  consistent  feature  of  HFD  feeding. Finer taxonomic analysis revealed that Lactococcus spp.  are the most reproducible signal of HFD, which  we  experimentally demonstrate  are  common  dietary  contaminants.   We  employed  machine learning to define signatures capable of predicting the dietary intake of mice and demonstrate that phylogenetic and gene-centric transformations of this model are capable of translating to humans. Together,  these results demonstrate the utility of microbiome meta-analyses in identifying robust bacterial signals for mechanistic studies and creates a framework for the routine meta-analysis of microbiome studies in preclinical models.
+							
+							<br><br>This page contains links to the R Markdown documents that contain the line by line commands that recapitulate all figure and analysis included in the manuscript as well as processed versions of data useful for reanalysis.
+							</p>
+					</div>
+				</div>
+			</section>
+
+
+		<!-- Downloads -->
+			<section id="one" class="main style2">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h2>Analysis Documents</h2>
+							</header>
+							<p>
+							<a href="analysis/HFD_process.html">Processing (obtaining data and picking OTUs)</a><br>
+							<a href="analysis/HFD_diversity.html">Analysis of Alpha and Beta Diversity (with Lactococcus)</a><br>
+							<a href="analysis/HFD_diversity_nol.html">Analysis of Alpha and Beta Diversity (without Lactococcus)</a><br>
+							<a href="analysis/HFD_features.html">Random Forest Analysis (with Lactococcus)</a><br>
+							<a href="analysis/HFD_features_nol.html">Random Forest Analysis (without Lactococcus)</a><br>
+							</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/rs.png" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Analysis -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h2>Processed Data Downloads</h2>
+							</header>
+							<p>
+							<a href="data/HFDmetadata.tar.gz">Per-study metadata with Sample Accessions for Download</a><br>
+							<a href="data/HFDotus.tar.gz">OTU tables (with Lactococcus)</a><br>
+							<a href="data/HFDotus_nol.tar.gz">OTU tables (without Lactococcus)</a><br>
+							<a href="data/HFDkos.tar.gz">KO tables (with Lactococcus)</a><br>
+							<a href="data/HFDkos_nol.tar.gz">KO tables (without Lactococcus)</a><br>
+
+							</p>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img src="images/cml.png" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
